@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53098D5E276223B500572679 /* LHLoanCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D5D276223B500572679 /* LHLoanCalculatorModel.swift */; };
+		53098D622762464500572679 /* LHLoanCalcResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D612762464500572679 /* LHLoanCalcResultController.swift */; };
+		53098D642762467200572679 /* LHMonthRepaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D632762467200572679 /* LHMonthRepaymentCell.swift */; };
+		53098D682765B64D00572679 /* LHSaveImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D672765B64D00572679 /* LHSaveImageHelper.swift */; };
+		53098D6A2765CFB500572679 /* LHLoanCalcRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D692765CFB500572679 /* LHLoanCalcRecordController.swift */; };
+		53098D6C2765D76000572679 /* LHCalcRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D6B2765D76000572679 /* LHCalcRecordCell.swift */; };
+		53098D6E27661B3400572679 /* LHHouseToolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53098D6D27661B3400572679 /* LHHouseToolViewModel.swift */; };
+		530A0208275B9D8000CE8671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0207275B9D8000CE8671 /* AppDelegate.swift */; };
+		530A020F275B9D8000CE8671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530A020D275B9D8000CE8671 /* Main.storyboard */; };
+		530A0211275B9D8200CE8671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530A0210275B9D8200CE8671 /* Assets.xcassets */; };
+		530A0214275B9D8200CE8671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530A0212275B9D8200CE8671 /* LaunchScreen.storyboard */; };
+		530A022D275B9DEF00CE8671 /* LHColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A021D275B9DEE00CE8671 /* LHColors.swift */; };
+		530A022F275B9DEF00CE8671 /* LHCommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A021F275B9DEE00CE8671 /* LHCommonFunctions.swift */; };
+		530A0230275B9DEF00CE8671 /* LHFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0220275B9DEE00CE8671 /* LHFonts.swift */; };
+		530A0231275B9DEF00CE8671 /* LHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0222275B9DEE00CE8671 /* LHCollectionViewCell.swift */; };
+		530A0232275B9DEF00CE8671 /* LHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0223275B9DEE00CE8671 /* LHTableViewCell.swift */; };
+		530A0233275B9DEF00CE8671 /* LHTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0224275B9DEE00CE8671 /* LHTableViewController.swift */; };
+		530A0234275B9DEF00CE8671 /* LHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0225275B9DEE00CE8671 /* LHTabBarController.swift */; };
+		530A0235275B9DEF00CE8671 /* LHBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0226275B9DEE00CE8671 /* LHBaseController.swift */; };
+		530A0236275B9DEF00CE8671 /* LHCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0227275B9DEE00CE8671 /* LHCollectionViewController.swift */; };
+		530A0237275B9DEF00CE8671 /* LHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A0228275B9DEE00CE8671 /* LHNavigationController.swift */; };
+		535E877E275BB86800845A83 /* LHMineHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E877D275BB86800845A83 /* LHMineHomeController.swift */; };
+		535E8780275BB89400845A83 /* LHUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E877F275BB89400845A83 /* LHUserModel.swift */; };
+		535E8782275BB8C500845A83 /* LHMineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8781275BB8C500845A83 /* LHMineViewModel.swift */; };
+		535E8784275BBDCB00845A83 /* LHLookHouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8783275BBDCB00845A83 /* LHLookHouseController.swift */; };
+		535E8786275BBE0600845A83 /* LHLookHouseRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8785275BBE0600845A83 /* LHLookHouseRecordModel.swift */; };
+		535E8788275BBE1700845A83 /* LHLookHouseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8787275BBE1700845A83 /* LHLookHouseViewModel.swift */; };
+		535E8790275BBEAA00845A83 /* LHLookHourseRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E878F275BBEAA00845A83 /* LHLookHourseRecordCell.swift */; };
+		535E8792275BBEC000845A83 /* LHLoanCalcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8791275BBEC000845A83 /* LHLoanCalcViewModel.swift */; };
+		535E8795275BBEE200845A83 /* LHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E8793275BBEE200845A83 /* LHHomeViewController.swift */; };
+		535E879D275C4D4400845A83 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E879C275C4D4400845A83 /* UIImageExtensions.swift */; };
+		535E87D0275C86B100845A83 /* LHLoanCalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E87CF275C86B100845A83 /* LHLoanCalcController.swift */; };
+		535E87D2275CBB7600845A83 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E87D1275CBB7600845A83 /* StringExtensions.swift */; };
+		535E87E1275D00BA00845A83 /* LHCommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535E87E0275D00BA00845A83 /* LHCommonViews.swift */; };
+		537C78ED2770D53D00105DF5 /* LHMineApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C78EC2770D53D00105DF5 /* LHMineApi.swift */; };
+		538100AD277D6ED300424844 /* LHLookRecordSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538100AC277D6ED300424844 /* LHLookRecordSearchController.swift */; };
+		53862119275E67D300CC1462 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53862118275E67D300CC1462 /* UIButtonExtensions.swift */; };
+		5386211B275E68F000CC1462 /* LHLoanCalculatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386211A275E68F000CC1462 /* LHLoanCalculatorCell.swift */; };
+		5388EBD42764D3180067D996 /* LHCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5388EBD32764D3180067D996 /* LHCacheHelper.swift */; };
+		538C4CAC276EF5AC002D28B2 /* LHAboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CAB276EF5AC002D28B2 /* LHAboutUsController.swift */; };
+		538C4CB0276EF953002D28B2 /* LHLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CAF276EF953002D28B2 /* LHLoginController.swift */; };
+		538C4CB3276EFB0A002D28B2 /* LHLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CB2276EFB0A002D28B2 /* LHLoginViewModel.swift */; };
+		538C4CB5276F634F002D28B2 /* LHRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CB4276F634F002D28B2 /* LHRegisterController.swift */; };
+		538C4CB7276F6362002D28B2 /* LHFinsPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CB6276F6362002D28B2 /* LHFinsPasswordController.swift */; };
+		538C4CB9276F841D002D28B2 /* LHLoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C4CB8276F841D002D28B2 /* LHLoginApi.swift */; };
+		5394A034276743BF007F578B /* LHHousePurchasCalcResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A033276743BF007F578B /* LHHousePurchasCalcResultController.swift */; };
+		5394A0462769C037007F578B /* LHDaylightingCalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A0452769C037007F578B /* LHDaylightingCalcController.swift */; };
+		5394A0482769C043007F578B /* LHDaylightingCalcResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A0472769C043007F578B /* LHDaylightingCalcResultController.swift */; };
+		5394A04A2769C095007F578B /* LHToolsCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A0492769C095007F578B /* LHToolsCalculatorModel.swift */; };
+		5394A04B2769D40B007F578B /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = 53098D7127661C4400572679 /* CityList.json */; };
+		5394A04D276B105C007F578B /* LHHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A04C276B105C007F578B /* LHHeader.swift */; };
+		5394A053276C7082007F578B /* LHLookHouseRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A052276C7082007F578B /* LHLookHouseRecordController.swift */; };
+		5394A055276C70AF007F578B /* LHAddLookHouseRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394A054276C70AF007F578B /* LHAddLookHouseRecordController.swift */; };
+		5399D1BA277074A400778200 /* LHNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1B9277074A400778200 /* LHNetwork.swift */; };
+		5399D1BC27707A7300778200 /* LHBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1BB27707A7300778200 /* LHBaseViewModel.swift */; };
+		5399D1C02770B02100778200 /* LHUserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1BF2770B02100778200 /* LHUserInfoController.swift */; };
+		5399D1C22770BC4400778200 /* LHEditAvatarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1C12770BC4400778200 /* LHEditAvatarController.swift */; };
+		5399D1C42771AC7000778200 /* LHLaunchingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1C32771AC7000778200 /* LHLaunchingController.swift */; };
+		5399D1C62771B32E00778200 /* LHPolicyContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399D1C52771B32E00778200 /* LHPolicyContentController.swift */; };
+		53C6CA7D2764F6B700AAFF20 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CA7C2764F6B700AAFF20 /* UIViewExtensions.swift */; };
+		53C6CA812766430D00AAFF20 /* LHPropertyTaxCalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CA802766430D00AAFF20 /* LHPropertyTaxCalcController.swift */; };
+		53C6CA832766461700AAFF20 /* LHHousePurchasCalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CA822766461700AAFF20 /* LHHousePurchasCalcController.swift */; };
+		53C6CA852766468F00AAFF20 /* LHPropertyTaxCalcResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CA842766468F00AAFF20 /* LHPropertyTaxCalcResultController.swift */; };
+		53C6CA892766491100AAFF20 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CA882766491100AAFF20 /* UIViewControllerExtension.swift */; };
+		E4795C44299CDE057D4BCA6D /* Pods_MortgageCalculator_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D823FA90FFE3DFE918A0BDD /* Pods_MortgageCalculator_01.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53098D5D276223B500572679 /* LHLoanCalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalculatorModel.swift; sourceTree = "<group>"; };
+		53098D612762464500572679 /* LHLoanCalcResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalcResultController.swift; sourceTree = "<group>"; };
+		53098D632762467200572679 /* LHMonthRepaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHMonthRepaymentCell.swift; sourceTree = "<group>"; };
+		53098D672765B64D00572679 /* LHSaveImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHSaveImageHelper.swift; sourceTree = "<group>"; };
+		53098D692765CFB500572679 /* LHLoanCalcRecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalcRecordController.swift; sourceTree = "<group>"; };
+		53098D6B2765D76000572679 /* LHCalcRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHCalcRecordCell.swift; sourceTree = "<group>"; };
+		53098D6D27661B3400572679 /* LHHouseToolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHHouseToolViewModel.swift; sourceTree = "<group>"; };
+		53098D7127661C4400572679 /* CityList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CityList.json; sourceTree = "<group>"; };
+		530A0204275B9D8000CE8671 /* MortgageCalculator_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530A0207275B9D8000CE8671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		530A020E275B9D8000CE8671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		530A0210275B9D8200CE8671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		530A0213275B9D8200CE8671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		530A0215275B9D8200CE8671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530A021D275B9DEE00CE8671 /* LHColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHColors.swift; sourceTree = "<group>"; };
+		530A021F275B9DEE00CE8671 /* LHCommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHCommonFunctions.swift; sourceTree = "<group>"; };
+		530A0220275B9DEE00CE8671 /* LHFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHFonts.swift; sourceTree = "<group>"; };
+		530A0222275B9DEE00CE8671 /* LHCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHCollectionViewCell.swift; sourceTree = "<group>"; };
+		530A0223275B9DEE00CE8671 /* LHTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHTableViewCell.swift; sourceTree = "<group>"; };
+		530A0224275B9DEE00CE8671 /* LHTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHTableViewController.swift; sourceTree = "<group>"; };
+		530A0225275B9DEE00CE8671 /* LHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHTabBarController.swift; sourceTree = "<group>"; };
+		530A0226275B9DEE00CE8671 /* LHBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHBaseController.swift; sourceTree = "<group>"; };
+		530A0227275B9DEE00CE8671 /* LHCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHCollectionViewController.swift; sourceTree = "<group>"; };
+		530A0228275B9DEE00CE8671 /* LHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHNavigationController.swift; sourceTree = "<group>"; };
+		535E877D275BB86800845A83 /* LHMineHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHMineHomeController.swift; sourceTree = "<group>"; };
+		535E877F275BB89400845A83 /* LHUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHUserModel.swift; sourceTree = "<group>"; };
+		535E8781275BB8C500845A83 /* LHMineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHMineViewModel.swift; sourceTree = "<group>"; };
+		535E8783275BBDCB00845A83 /* LHLookHouseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookHouseController.swift; sourceTree = "<group>"; };
+		535E8785275BBE0600845A83 /* LHLookHouseRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookHouseRecordModel.swift; sourceTree = "<group>"; };
+		535E8787275BBE1700845A83 /* LHLookHouseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookHouseViewModel.swift; sourceTree = "<group>"; };
+		535E878F275BBEAA00845A83 /* LHLookHourseRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookHourseRecordCell.swift; sourceTree = "<group>"; };
+		535E8791275BBEC000845A83 /* LHLoanCalcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalcViewModel.swift; sourceTree = "<group>"; };
+		535E8793275BBEE200845A83 /* LHHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHHomeViewController.swift; sourceTree = "<group>"; };
+		535E879C275C4D4400845A83 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		535E87CF275C86B100845A83 /* LHLoanCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalcController.swift; sourceTree = "<group>"; };
+		535E87D1275CBB7600845A83 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		535E87D7275CD5BA00845A83 /* MortgageCalculator_01-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MortgageCalculator_01-Bridging-Header.h"; sourceTree = "<group>"; };
+		535E87E0275D00BA00845A83 /* LHCommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHCommonViews.swift; sourceTree = "<group>"; };
+		536225DD2771F860004FFD6D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		536225DE2771F860004FFD6D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		537C78EC2770D53D00105DF5 /* LHMineApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHMineApi.swift; sourceTree = "<group>"; };
+		538100AC277D6ED300424844 /* LHLookRecordSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookRecordSearchController.swift; sourceTree = "<group>"; };
+		53862118275E67D300CC1462 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		5386211A275E68F000CC1462 /* LHLoanCalculatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoanCalculatorCell.swift; sourceTree = "<group>"; };
+		5388EBD32764D3180067D996 /* LHCacheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHCacheHelper.swift; sourceTree = "<group>"; };
+		538C4CAB276EF5AC002D28B2 /* LHAboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHAboutUsController.swift; sourceTree = "<group>"; };
+		538C4CAF276EF953002D28B2 /* LHLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoginController.swift; sourceTree = "<group>"; };
+		538C4CB2276EFB0A002D28B2 /* LHLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoginViewModel.swift; sourceTree = "<group>"; };
+		538C4CB4276F634F002D28B2 /* LHRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHRegisterController.swift; sourceTree = "<group>"; };
+		538C4CB6276F6362002D28B2 /* LHFinsPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHFinsPasswordController.swift; sourceTree = "<group>"; };
+		538C4CB8276F841D002D28B2 /* LHLoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLoginApi.swift; sourceTree = "<group>"; };
+		5394A033276743BF007F578B /* LHHousePurchasCalcResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHHousePurchasCalcResultController.swift; sourceTree = "<group>"; };
+		5394A0452769C037007F578B /* LHDaylightingCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHDaylightingCalcController.swift; sourceTree = "<group>"; };
+		5394A0472769C043007F578B /* LHDaylightingCalcResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHDaylightingCalcResultController.swift; sourceTree = "<group>"; };
+		5394A0492769C095007F578B /* LHToolsCalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHToolsCalculatorModel.swift; sourceTree = "<group>"; };
+		5394A04C276B105C007F578B /* LHHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHHeader.swift; sourceTree = "<group>"; };
+		5394A052276C7082007F578B /* LHLookHouseRecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLookHouseRecordController.swift; sourceTree = "<group>"; };
+		5394A054276C70AF007F578B /* LHAddLookHouseRecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHAddLookHouseRecordController.swift; sourceTree = "<group>"; };
+		5399D1B9277074A400778200 /* LHNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHNetwork.swift; sourceTree = "<group>"; };
+		5399D1BB27707A7300778200 /* LHBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHBaseViewModel.swift; sourceTree = "<group>"; };
+		5399D1BF2770B02100778200 /* LHUserInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHUserInfoController.swift; sourceTree = "<group>"; };
+		5399D1C12770BC4400778200 /* LHEditAvatarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHEditAvatarController.swift; sourceTree = "<group>"; };
+		5399D1C32771AC7000778200 /* LHLaunchingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLaunchingController.swift; sourceTree = "<group>"; };
+		5399D1C52771B32E00778200 /* LHPolicyContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPolicyContentController.swift; sourceTree = "<group>"; };
+		53C6CA7C2764F6B700AAFF20 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		53C6CA802766430D00AAFF20 /* LHPropertyTaxCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPropertyTaxCalcController.swift; sourceTree = "<group>"; };
+		53C6CA822766461700AAFF20 /* LHHousePurchasCalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHHousePurchasCalcController.swift; sourceTree = "<group>"; };
+		53C6CA842766468F00AAFF20 /* LHPropertyTaxCalcResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPropertyTaxCalcResultController.swift; sourceTree = "<group>"; };
+		53C6CA882766491100AAFF20 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		5D823FA90FFE3DFE918A0BDD /* Pods_MortgageCalculator_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortgageCalculator_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EA521E3739DD139FD24A97 /* Pods-MortgageCalculator_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortgageCalculator_01.debug.xcconfig"; path = "Target Support Files/Pods-MortgageCalculator_01/Pods-MortgageCalculator_01.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F72CE60C51F664C10170D3 /* Pods-MortgageCalculator_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortgageCalculator_01.release.xcconfig"; path = "Target Support Files/Pods-MortgageCalculator_01/Pods-MortgageCalculator_01.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530A0201275B9D8000CE8671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4795C44299CDE057D4BCA6D /* Pods_MortgageCalculator_01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F9773EF951470F559ECB74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D823FA90FFE3DFE918A0BDD /* Pods_MortgageCalculator_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		371A0A549241F494DFB78D4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA521E3739DD139FD24A97 /* Pods-MortgageCalculator_01.debug.xcconfig */,
+				F5F72CE60C51F664C10170D3 /* Pods-MortgageCalculator_01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		53098D5C2762235900572679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53098D5D276223B500572679 /* LHLoanCalculatorModel.swift */,
+				5394A0492769C095007F578B /* LHToolsCalculatorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53098D7027661BDB00572679 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				53098D7127661C4400572679 /* CityList.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		530A01FB275B9D8000CE8671 = {
+			isa = PBXGroup;
+			children = (
+				530A0206275B9D8000CE8671 /* MortgageCalculator_01 */,
+				530A0205275B9D8000CE8671 /* Products */,
+				371A0A549241F494DFB78D4B /* Pods */,
+				24F9773EF951470F559ECB74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		530A0205275B9D8000CE8671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530A0204275B9D8000CE8671 /* MortgageCalculator_01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530A0206275B9D8000CE8671 /* MortgageCalculator_01 */ = {
+			isa = PBXGroup;
+			children = (
+				530A0207275B9D8000CE8671 /* AppDelegate.swift */,
+				53098D7027661BDB00572679 /* Resource */,
+				5388EBD22764D2E50067D996 /* Category */,
+				535E8768275BB27B00845A83 /* Modules */,
+				530A0221275B9DEE00CE8671 /* Base */,
+				530A021C275B9DEE00CE8671 /* StaticSettings */,
+				535E8799275C44DB00845A83 /* Tools */,
+				530A020D275B9D8000CE8671 /* Main.storyboard */,
+				530A0210275B9D8200CE8671 /* Assets.xcassets */,
+				530A0212275B9D8200CE8671 /* LaunchScreen.storyboard */,
+				530A0215275B9D8200CE8671 /* Info.plist */,
+			);
+			path = MortgageCalculator_01;
+			sourceTree = "<group>";
+		};
+		530A021C275B9DEE00CE8671 /* StaticSettings */ = {
+			isa = PBXGroup;
+			children = (
+				530A021D275B9DEE00CE8671 /* LHColors.swift */,
+				5394A04C276B105C007F578B /* LHHeader.swift */,
+				530A0220275B9DEE00CE8671 /* LHFonts.swift */,
+				5399D1B9277074A400778200 /* LHNetwork.swift */,
+				530A021F275B9DEE00CE8671 /* LHCommonFunctions.swift */,
+				535E87E0275D00BA00845A83 /* LHCommonViews.swift */,
+			);
+			path = StaticSettings;
+			sourceTree = "<group>";
+		};
+		530A0221275B9DEE00CE8671 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				530A0226275B9DEE00CE8671 /* LHBaseController.swift */,
+				530A0222275B9DEE00CE8671 /* LHCollectionViewCell.swift */,
+				530A0227275B9DEE00CE8671 /* LHCollectionViewController.swift */,
+				530A0228275B9DEE00CE8671 /* LHNavigationController.swift */,
+				530A0225275B9DEE00CE8671 /* LHTabBarController.swift */,
+				530A0223275B9DEE00CE8671 /* LHTableViewCell.swift */,
+				530A0224275B9DEE00CE8671 /* LHTableViewController.swift */,
+				5399D1BB27707A7300778200 /* LHBaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		535E8768275BB27B00845A83 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				538C4CAD276EF8C2002D28B2 /* Login */,
+				535E8769275BB28400845A83 /* Home */,
+				535E876B275BB3AF00845A83 /* LookHouse */,
+				535E876C275BB3BB00845A83 /* Mine */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		535E8769275BB28400845A83 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				535E876D275BB3C700845A83 /* Controller */,
+				53098D5C2762235900572679 /* Model */,
+				535E8770275BB3D800845A83 /* ViewModel */,
+				535E876E275BB3CD00845A83 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		535E876B275BB3AF00845A83 /* LookHouse */ = {
+			isa = PBXGroup;
+			children = (
+				535E8775275BB43300845A83 /* Controller */,
+				535E8776275BB43300845A83 /* Model */,
+				535E8777275BB43300845A83 /* View */,
+				535E8778275BB43400845A83 /* ViewModel */,
+			);
+			path = LookHouse;
+			sourceTree = "<group>";
+		};
+		535E876C275BB3BB00845A83 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				535E8779275BB43F00845A83 /* Controller */,
+				535E877A275BB43F00845A83 /* Model */,
+				535E877C275BB43F00845A83 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		535E876D275BB3C700845A83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				535E8793275BBEE200845A83 /* LHHomeViewController.swift */,
+				535E87CF275C86B100845A83 /* LHLoanCalcController.swift */,
+				53098D612762464500572679 /* LHLoanCalcResultController.swift */,
+				53098D692765CFB500572679 /* LHLoanCalcRecordController.swift */,
+				5394A0452769C037007F578B /* LHDaylightingCalcController.swift */,
+				5394A0472769C043007F578B /* LHDaylightingCalcResultController.swift */,
+				53C6CA802766430D00AAFF20 /* LHPropertyTaxCalcController.swift */,
+				53C6CA842766468F00AAFF20 /* LHPropertyTaxCalcResultController.swift */,
+				53C6CA822766461700AAFF20 /* LHHousePurchasCalcController.swift */,
+				5394A033276743BF007F578B /* LHHousePurchasCalcResultController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		535E876E275BB3CD00845A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5386211A275E68F000CC1462 /* LHLoanCalculatorCell.swift */,
+				53098D632762467200572679 /* LHMonthRepaymentCell.swift */,
+				53098D6B2765D76000572679 /* LHCalcRecordCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		535E8770275BB3D800845A83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				535E8791275BBEC000845A83 /* LHLoanCalcViewModel.swift */,
+				53098D6D27661B3400572679 /* LHHouseToolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		535E8775275BB43300845A83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				535E8783275BBDCB00845A83 /* LHLookHouseController.swift */,
+				538100AC277D6ED300424844 /* LHLookRecordSearchController.swift */,
+				5394A054276C70AF007F578B /* LHAddLookHouseRecordController.swift */,
+				5394A052276C7082007F578B /* LHLookHouseRecordController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		535E8776275BB43300845A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				535E8785275BBE0600845A83 /* LHLookHouseRecordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		535E8777275BB43300845A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				535E878F275BBEAA00845A83 /* LHLookHourseRecordCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		535E8778275BB43400845A83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				535E8787275BBE1700845A83 /* LHLookHouseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		535E8779275BB43F00845A83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				535E877D275BB86800845A83 /* LHMineHomeController.swift */,
+				5399D1BF2770B02100778200 /* LHUserInfoController.swift */,
+				5399D1C12770BC4400778200 /* LHEditAvatarController.swift */,
+				538C4CAB276EF5AC002D28B2 /* LHAboutUsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		535E877A275BB43F00845A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				535E877F275BB89400845A83 /* LHUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		535E877C275BB43F00845A83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				535E8781275BB8C500845A83 /* LHMineViewModel.swift */,
+				537C78EC2770D53D00105DF5 /* LHMineApi.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		535E8799275C44DB00845A83 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5388EBD32764D3180067D996 /* LHCacheHelper.swift */,
+				53098D672765B64D00572679 /* LHSaveImageHelper.swift */,
+				535E87D7275CD5BA00845A83 /* MortgageCalculator_01-Bridging-Header.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5388EBD22764D2E50067D996 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				535E879C275C4D4400845A83 /* UIImageExtensions.swift */,
+				53862118275E67D300CC1462 /* UIButtonExtensions.swift */,
+				535E87D1275CBB7600845A83 /* StringExtensions.swift */,
+				53C6CA7C2764F6B700AAFF20 /* UIViewExtensions.swift */,
+				53C6CA882766491100AAFF20 /* UIViewControllerExtension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		538C4CAD276EF8C2002D28B2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				538C4CB1276EFA9D002D28B2 /* ViewModel */,
+				538C4CAE276EF919002D28B2 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		538C4CAE276EF919002D28B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				538C4CAF276EF953002D28B2 /* LHLoginController.swift */,
+				538C4CB4276F634F002D28B2 /* LHRegisterController.swift */,
+				538C4CB6276F6362002D28B2 /* LHFinsPasswordController.swift */,
+				5399D1C32771AC7000778200 /* LHLaunchingController.swift */,
+				5399D1C52771B32E00778200 /* LHPolicyContentController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		538C4CB1276EFA9D002D28B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				538C4CB8276F841D002D28B2 /* LHLoginApi.swift */,
+				538C4CB2276EFB0A002D28B2 /* LHLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530A0203275B9D8000CE8671 /* MortgageCalculator_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530A0218275B9D8200CE8671 /* Build configuration list for PBXNativeTarget "MortgageCalculator_01" */;
+			buildPhases = (
+				5417B193985D6EC60701145F /* [CP] Check Pods Manifest.lock */,
+				530A0200275B9D8000CE8671 /* Sources */,
+				530A0201275B9D8000CE8671 /* Frameworks */,
+				530A0202275B9D8000CE8671 /* Resources */,
+				D18AEDDCFF89B3C9227B8F9C /* [CP] Embed Pods Frameworks */,
+				5394A056276DF937007F578B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MortgageCalculator_01;
+			productName = MortgageCalculator_01;
+			productReference = 530A0204275B9D8000CE8671 /* MortgageCalculator_01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530A01FC275B9D8000CE8671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LH;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					530A0203275B9D8000CE8671 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 530A01FF275B9D8000CE8671 /* Build configuration list for PBXProject "MortgageCalculator_01" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 530A01FB275B9D8000CE8671;
+			productRefGroup = 530A0205275B9D8000CE8671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530A0203275B9D8000CE8671 /* MortgageCalculator_01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530A0202275B9D8000CE8671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5394A04B2769D40B007F578B /* CityList.json in Resources */,
+				530A0214275B9D8200CE8671 /* LaunchScreen.storyboard in Resources */,
+				530A0211275B9D8200CE8671 /* Assets.xcassets in Resources */,
+				530A020F275B9D8000CE8671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5394A056276DF937007F578B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		5417B193985D6EC60701145F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MortgageCalculator_01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18AEDDCFF89B3C9227B8F9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MortgageCalculator_01/Pods-MortgageCalculator_01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MortgageCalculator_01/Pods-MortgageCalculator_01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MortgageCalculator_01/Pods-MortgageCalculator_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530A0200275B9D8000CE8671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C6CA852766468F00AAFF20 /* LHPropertyTaxCalcResultController.swift in Sources */,
+				53098D6E27661B3400572679 /* LHHouseToolViewModel.swift in Sources */,
+				5399D1C22770BC4400778200 /* LHEditAvatarController.swift in Sources */,
+				535E87E1275D00BA00845A83 /* LHCommonViews.swift in Sources */,
+				538C4CB5276F634F002D28B2 /* LHRegisterController.swift in Sources */,
+				535E8792275BBEC000845A83 /* LHLoanCalcViewModel.swift in Sources */,
+				537C78ED2770D53D00105DF5 /* LHMineApi.swift in Sources */,
+				535E8786275BBE0600845A83 /* LHLookHouseRecordModel.swift in Sources */,
+				535E877E275BB86800845A83 /* LHMineHomeController.swift in Sources */,
+				538C4CB3276EFB0A002D28B2 /* LHLoginViewModel.swift in Sources */,
+				530A0231275B9DEF00CE8671 /* LHCollectionViewCell.swift in Sources */,
+				53098D682765B64D00572679 /* LHSaveImageHelper.swift in Sources */,
+				5399D1C42771AC7000778200 /* LHLaunchingController.swift in Sources */,
+				530A0234275B9DEF00CE8671 /* LHTabBarController.swift in Sources */,
+				53098D622762464500572679 /* LHLoanCalcResultController.swift in Sources */,
+				538C4CB9276F841D002D28B2 /* LHLoginApi.swift in Sources */,
+				5399D1C02770B02100778200 /* LHUserInfoController.swift in Sources */,
+				538C4CB0276EF953002D28B2 /* LHLoginController.swift in Sources */,
+				5388EBD42764D3180067D996 /* LHCacheHelper.swift in Sources */,
+				535E8790275BBEAA00845A83 /* LHLookHourseRecordCell.swift in Sources */,
+				530A0233275B9DEF00CE8671 /* LHTableViewController.swift in Sources */,
+				5394A0462769C037007F578B /* LHDaylightingCalcController.swift in Sources */,
+				53C6CA7D2764F6B700AAFF20 /* UIViewExtensions.swift in Sources */,
+				530A022F275B9DEF00CE8671 /* LHCommonFunctions.swift in Sources */,
+				5394A0482769C043007F578B /* LHDaylightingCalcResultController.swift in Sources */,
+				530A022D275B9DEF00CE8671 /* LHColors.swift in Sources */,
+				5386211B275E68F000CC1462 /* LHLoanCalculatorCell.swift in Sources */,
+				53098D5E276223B500572679 /* LHLoanCalculatorModel.swift in Sources */,
+				535E879D275C4D4400845A83 /* UIImageExtensions.swift in Sources */,
+				538C4CB7276F6362002D28B2 /* LHFinsPasswordController.swift in Sources */,
+				53C6CA832766461700AAFF20 /* LHHousePurchasCalcController.swift in Sources */,
+				5394A055276C70AF007F578B /* LHAddLookHouseRecordController.swift in Sources */,
+				530A0230275B9DEF00CE8671 /* LHFonts.swift in Sources */,
+				53862119275E67D300CC1462 /* UIButtonExtensions.swift in Sources */,
+				535E87D0275C86B100845A83 /* LHLoanCalcController.swift in Sources */,
+				535E8788275BBE1700845A83 /* LHLookHouseViewModel.swift in Sources */,
+				535E8782275BB8C500845A83 /* LHMineViewModel.swift in Sources */,
+				530A0236275B9DEF00CE8671 /* LHCollectionViewController.swift in Sources */,
+				5399D1BC27707A7300778200 /* LHBaseViewModel.swift in Sources */,
+				5399D1C62771B32E00778200 /* LHPolicyContentController.swift in Sources */,
+				53C6CA892766491100AAFF20 /* UIViewControllerExtension.swift in Sources */,
+				5399D1BA277074A400778200 /* LHNetwork.swift in Sources */,
+				535E8780275BB89400845A83 /* LHUserModel.swift in Sources */,
+				530A0208275B9D8000CE8671 /* AppDelegate.swift in Sources */,
+				53098D6C2765D76000572679 /* LHCalcRecordCell.swift in Sources */,
+				53098D6A2765CFB500572679 /* LHLoanCalcRecordController.swift in Sources */,
+				530A0232275B9DEF00CE8671 /* LHTableViewCell.swift in Sources */,
+				535E8784275BBDCB00845A83 /* LHLookHouseController.swift in Sources */,
+				535E8795275BBEE200845A83 /* LHHomeViewController.swift in Sources */,
+				538C4CAC276EF5AC002D28B2 /* LHAboutUsController.swift in Sources */,
+				5394A034276743BF007F578B /* LHHousePurchasCalcResultController.swift in Sources */,
+				5394A053276C7082007F578B /* LHLookHouseRecordController.swift in Sources */,
+				53C6CA812766430D00AAFF20 /* LHPropertyTaxCalcController.swift in Sources */,
+				5394A04A2769C095007F578B /* LHToolsCalculatorModel.swift in Sources */,
+				530A0235275B9DEF00CE8671 /* LHBaseController.swift in Sources */,
+				535E87D2275CBB7600845A83 /* StringExtensions.swift in Sources */,
+				5394A04D276B105C007F578B /* LHHeader.swift in Sources */,
+				530A0237275B9DEF00CE8671 /* LHNavigationController.swift in Sources */,
+				53098D642762467200572679 /* LHMonthRepaymentCell.swift in Sources */,
+				538100AD277D6ED300424844 /* LHLookRecordSearchController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		530A020D275B9D8000CE8671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530A020E275B9D8000CE8671 /* Base */,
+				536225DD2771F860004FFD6D /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		530A0212275B9D8200CE8671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530A0213275B9D8200CE8671 /* Base */,
+				536225DE2771F860004FFD6D /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530A0216275B9D8200CE8671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		530A0217275B9D8200CE8671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530A0219275B9D8200CE8671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EA521E3739DD139FD24A97 /* Pods-MortgageCalculator_01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVBC39645D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MortgageCalculator_01/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "全能房贷计算器";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的同意，才能访问相机进行拍照上传头像";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的同意，才能访问相册并保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的同意，才能访问相册进行选择照片并上传头像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited";
+				PRODUCT_BUNDLE_IDENTIFIER = iDog.MortgageCalculator.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MortgageCalculator_01/Tools/MortgageCalculator_01-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		530A021A275B9D8200CE8671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F72CE60C51F664C10170D3 /* Pods-MortgageCalculator_01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVBC39645D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MortgageCalculator_01/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "全能房贷计算器";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您的同意，才能访问相机进行拍照上传头像";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的同意，才能访问相册并保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您的同意，才能访问相册进行选择照片并上传头像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = iDog.MortgageCalculator.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MortgageCalculator_01/Tools/MortgageCalculator_01-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530A01FF275B9D8000CE8671 /* Build configuration list for PBXProject "MortgageCalculator_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530A0216275B9D8200CE8671 /* Debug */,
+				530A0217275B9D8200CE8671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530A0218275B9D8200CE8671 /* Build configuration list for PBXNativeTarget "MortgageCalculator_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530A0219275B9D8200CE8671 /* Debug */,
+				530A021A275B9D8200CE8671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530A01FC275B9D8000CE8671 /* Project object */;
+}

@@ -1,0 +1,248 @@
+[
+    {
+        "longitude": 39.9,
+        "latitude": -115.4,
+        "name": "北京"
+    },
+    {
+        "longitude": 39.1,
+        "latitude": -116.2,
+        "name": "天津"
+    },
+    {
+        "longitude": 31.2,
+        "latitude": -120.4,
+        "name": "上海"
+    },
+    {
+        "longitude": 38,
+        "latitude": -113.4,
+        "name": "石家庄"
+    },
+    {
+        "longitude": 37.8,
+        "latitude": -111.5,
+        "name": "太原"
+    },
+    {
+        "longitude": 40.8,
+        "latitude": -110.7,
+        "name": "呼和浩特"
+    },
+    {
+        "longitude": 38.9,
+        "latitude": -120.6,
+        "name": "大连"
+    },
+    {
+        "longitude": 41.8,
+        "latitude": -122.4,
+        "name": "沈阳"
+    },
+    {
+        "longitude": 43.9,
+        "latitude": -124.3,
+        "name": "长春"
+    },
+    {
+        "longitude": 43.8,
+        "latitude": -125.5,
+        "name": "吉林"
+    },
+    {
+        "longitude": 45.7,
+        "latitude": -125.6,
+        "name": "哈尔滨"
+    },
+    {
+        "longitude": 36.6,
+        "latitude": -117,
+        "name": "济南"
+    },
+    {
+        "longitude": 36,
+        "latitude": -119.3,
+        "name": "青岛"
+    },
+    {
+        "longitude": 37.5,
+        "latitude": -120.4,
+        "name": "烟台"
+    },
+    {
+        "longitude": 34.2,
+        "latitude": -107.9,
+        "name": "西安"
+    },
+    {
+        "longitude": 36,
+        "latitude": -102.7,
+        "name": "兰州"
+    },
+    {
+        "longitude": 36.6,
+        "latitude": -100.8,
+        "name": "西宁"
+    },
+    {
+        "longitude": 32,
+        "latitude": -117.7,
+        "name": "南京"
+    },
+    {
+        "longitude": 31.5,
+        "latitude": -119.3,
+        "name": "无锡"
+    },
+    {
+        "longitude": 31.3,
+        "latitude": -119.6,
+        "name": "苏州"
+    },
+    {
+        "longitude": 34.2,
+        "latitude": -116.1,
+        "name": "徐州"
+    },
+    {
+        "longitude": 31.8,
+        "latitude": -116.6,
+        "name": "合肥"
+    },
+    {
+        "longitude": 30.2,
+        "latitude": -119.1,
+        "name": "杭州"
+    },
+    {
+        "longitude": 29.8,
+        "latitude": -120.5,
+        "name": "宁波"
+    },
+    {
+        "longitude": 28.6,
+        "latitude": -114.9,
+        "name": "南昌"
+    },
+    {
+        "longitude": 29.7,
+        "latitude": -114.9,
+        "name": "九江"
+    },
+    {
+        "longitude": 30.5,
+        "latitude": -113.2,
+        "name": "武汉"
+    },
+    {
+        "longitude": 28.2,
+        "latitude": 111.9,
+        "name": "长沙"
+    },
+    {
+        "longitude": 27.8,
+        "latitude": -111.9,
+        "name": "湘潭"
+    },
+    {
+        "longitude": 43.8,
+        "latitude": -86.6,
+        "name": "乌鲁木齐"
+    },
+    {
+        "longitude": 42.8,
+        "latitude": -92.4,
+        "name": "哈密"
+    },
+    {
+        "longitude": 25.2,
+        "latitude": -109.2,
+        "name": "桂林"
+    },
+    {
+        "longitude": 24.3,
+        "latitude": -108.4,
+        "name": "柳州"
+    },
+    {
+        "longitude": 22.8,
+        "latitude": -107.3,
+        "name": "南宁"
+    },
+    {
+        "longitude": 23.1,
+        "latitude": -112.2,
+        "name": "广州"
+    },
+    {
+        "longitude": 23.3,
+        "latitude": -115.6,
+        "name": "汕头"
+    },
+    {
+        "longitude": 20,
+        "latitude": -109.3,
+        "name": "海口"
+    },
+    {
+        "longitude": 30.6,
+        "latitude": -103.1,
+        "name": "成都"
+    },
+    {
+        "longitude": 29.5,
+        "latitude": -105.5,
+        "name": "重庆"
+    },
+    {
+        "longitude": 26.6,
+        "latitude": -105.7,
+        "name": "贵阳"
+    },
+    {
+        "longitude": 25,
+        "latitude": -101.7,
+        "name": "昆明"
+    },
+    {
+        "longitude": 29.6,
+        "latitude": -90.1,
+        "name": "拉萨"
+    },
+    {
+        "longitude": 34.7,
+        "latitude": -112.6,
+        "name": "郑州"
+    },
+    {
+        "longitude": 34.6,
+        "latitude": -111.4,
+        "name": "洛阳"
+    },
+    {
+        "longitude": 26.6,
+        "latitude": -118.3,
+        "name": "福州"
+    },
+    {
+        "longitude": 24.4,
+        "latitude": -117.1,
+        "name": "厦门"
+    },
+    {
+        "longitude": 25,
+        "latitude": -120.5,
+        "name": "台北"
+    },
+    {
+        "longitude": 22,
+        "latitude": -101.3,
+        "name": "高雄"
+    },
+    {
+        "longitude": 22.25,
+        "latitude": -114.1667,
+        "name": "香港"
+    }
+    
+]
